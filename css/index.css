@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Plus+Jakarta+Sans&family=Poppins:wght@700&display=swap');
+
+html, body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--clr-light);
+  font-family: 'Plus Jakarta Sans';
+}
+
+h1 {
+  color: var(--clr-red);
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url(/src/hero1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 30%;
+  height: 70vh;
+
+}
+.herotext {
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 60px;
+  width: 60%;
+  height: 60vh;
+  font-weight: bolder;
+  color: var(--clr-light);
+}
+
+.herotext p {
+  margin: 0;
+}
+
+.narkobatitle {
+  font-size: 100px;
+}
+
+.slogan {
+  background-color: var(--clr-red);
+  color: #f5f5f5;
+  padding: var(--space-m);
+}
+.slogan-text img {
+  height: 10rem;
+  width: auto;
+  filter:drop-shadow(0px 0px 800px #202020);
+}
+.slogantext-1 {
+  color: whitesmoke;
+  margin: 0;
+  font-size: 4rem;
+  
+}
+.slogantext-2 {
+  color: whitesmoke;
+  margin: 0;
+  font-size: 6rem;
+}
+
+.jenis {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: var(--space-m);
+  
+}
+
+
+figure {
+  text-align: center;
+}
+.narkobaimg {
+  width: auto;
+  height: 20rem;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  align-self: center;
+  box-shadow: 0px 0px 70px rgba(20, 20, 20, 0.35);
+}
+

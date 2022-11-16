@@ -1,0 +1,26 @@
+header {
+  background-color: var(--clr-accent);
+}
+
+.navigation {
+  justify-content: space-between;
+}
+.ul-nav {
+  justify-content: space-between;
+  padding: 0;
+  align-items: flex-end;
+}
+.ul-nav li{
+  list-style: none;
+
+}
+
+.ul-nav a {
+  text-decoration: none;
+  color: var(--clr-text);
+  padding: var(--space-s);
+}
+
+.logo {
+  padding: 0.5rem 1rem;
+}

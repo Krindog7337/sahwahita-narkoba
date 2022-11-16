@@ -1,0 +1,21 @@
+.reveal{
+  position: relative;
+  transform: translateY(5rem);
+  opacity: 0;
+  transition: 1s all ease-out;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.reveal-right{
+  position: relative;
+  transform: translateX(5rem);
+  opacity: 0;
+  transition: 1s all ease-out;
+}
+.reveal-right.active{
+  transform: translateX(0);
+  opacity: 1;
+}
