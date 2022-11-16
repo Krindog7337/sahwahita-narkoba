@@ -1,0 +1,23 @@
+.banner img {
+  width: 40vw;
+  min-width: 320px;
+  height: auto;
+}
+.baju img {
+  width: 60vw;
+  min-width: 360px;
+  height: auto;
+}
+.sticker {
+  display: inline;
+}
+.sticker img {
+  width: 25vw;
+  min-width: 360px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  margin: 0 1rem 1rem 0;
+}
+h2 {
+  color: var(--clr-red);
+}

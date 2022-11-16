@@ -1,0 +1,31 @@
+.card-entry {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card-container {
+  width: 250px;
+}
+.card {
+  padding: 2rem;
+  box-shadow: 0px 4px 20px 7px rgba(0, 0, 0, .05);
+  margin: 1rem;
+}
+
+.name {
+  font-size: var(--step--1);
+  font-weight: bold;
+}
+
+.team-image-wrapper img {
+  border-radius: 50%;
+  height: 128px;
+  width: 128px;
+  object-fit: cover;
+}
+.social-icons a {
+  text-decoration: none;
+}
+
+.fa-instagram {
+  color: var(--clr-red);  
+}
