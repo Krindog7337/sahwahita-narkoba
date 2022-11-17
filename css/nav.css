@@ -8,6 +8,10 @@ header {
   justify-content: space-between;
 }
 
+.active {
+  color: var(--clr-red)!important;
+}
+
 .ul-nav {
   justify-content: space-between;
   padding: 0;
@@ -85,6 +89,7 @@ footer {
   color: var(--clr-text);
 }
 
+
 @media (max-width:426px) {
   .footer-entry {
     grid-template-columns: auto;
@@ -119,7 +124,7 @@ footer {
 
   .ul-nav li {
     text-align: center;
-    padding: .1rem;
+    padding: .3rem;
   }
 
   .logo img {

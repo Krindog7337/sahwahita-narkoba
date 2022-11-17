@@ -29,3 +29,9 @@
 .fa-instagram {
   color: var(--clr-red);  
 }
+
+.feature-text {
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: .8rem;
+}
