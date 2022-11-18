@@ -8,22 +8,28 @@
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/custom-class.css">
-  <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
-  <link rel="stylesheet" href="css/animation.css">
   <link rel="icon" href="/src/logo/sahwahita-whitebg.jpg">
-  <!-- BootStrap -->
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
   <title>Sahwahita</title>
 </head>
 
 <body>
+  <!-- splashscreen -->
+  <div class="splash-screen">
+    <div class="logosplash-img">
+      <img src="/src/logo/sahwahita.png" alt="">
+    </div>
+    <h1 class="logo-header">
+      <span class="logosplash">Sahwahita</span><br />
+      <span class="logosplash">Berguna Bagi Semua</span>
+    </h1>
+  </div>
+
   <header>
     <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"></button>
     <nav>
-     
       <div class="container navigation flex">
-         <a href="index.html"> <img class="logo sahwahita-logo" src="/src/logo/sahwahita.png" alt="Sahwahita">
-      </a>
+        <a href="index.html"> <img class="logo sahwahita-logo" src="/src/logo/sahwahita.png" alt="Sahwahita">
+        </a>
         <ul class="ul-nav flex" data-visible="false">
           <li>
             <a href="about.html">Tentang Kami</a>
@@ -31,6 +37,9 @@
           <li>
             <a href="podcast.html">Podcast</a>
           </li>
+          <!-- <li>
+            <a href="tshirt.html">T-shirt</a>
+          </li> -->
           <li>
             <a href="other.html"> Produk Lainnya</a>
           </li>
@@ -266,11 +275,17 @@
         <div class="nav-footer">
           <ul class="ul-nav-footer">
             <li>
+              <a href="index.html">Beranda</a>
+            </li>
+            <li>
               <a href="about.html">Tentang Kami</a>
             </li>
             <li>
               <a href="podcast.html">Podcast</a>
             </li>
+            <!-- <li>
+              <a href="tshirt.html">T-shirt</a>
+            </li> -->
             <li>
               <a href="other.html"> Produk Lainnya</a>
             </li>
@@ -280,6 +295,7 @@
     </div>
   </footer>
   <script src="/js/nav.js"></script>
+  <script src="/js/intro.js"></script>
   <!-- <script src="/js/animation.js"></script> -->
   <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script> -->
